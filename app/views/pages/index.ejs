@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa com Pontos de Interesse</title>
+    <!-- Incluir o CSS do Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <!-- Incluir o JavaScript do Leaflet -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/mapas.js"></script>
+
+</head>
+
+<body>
+    <aside>
+        <label for="tipo">Selecione o Tipo:</label><br>
+        <select name="tipo" id="tipo">
+            <option value="0">Tudo</option>
+            <option value="1">Parque</option>
+            <option value="2">Shopping Center</option>
+            <option value="3">Estádio</option>
+            <option value="4">Região</option>
+            <option value="5">Museus</option>
+        </select>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+    </aside>
+    <div id="map"></div>
+</body>
+
+</html>
