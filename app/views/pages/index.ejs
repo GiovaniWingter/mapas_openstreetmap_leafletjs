@@ -16,19 +16,27 @@
 
 <body>
     <aside>
-        <label for="tipo">Selecione o Tipo:</label><br>
-        <select name="tipo" id="tipo">
-            <option value="0">Tudo</option>
-            <option value="1">Parque</option>
-            <option value="2">Shopping Center</option>
-            <option value="3">Estádio</option>
-            <option value="4">Região</option>
-            <option value="5">Museus</option>
-        </select>
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-        </ul>
+
+        <section>
+            <h2>Pontos de Interesse</h2>
+            <label for="tipo">Selecione o Tipo:</label><br>
+            <select name="tipo" id="tipo">
+                <option value="0">Tudo</option>
+                <option value="1">Parque</option>
+                <option value="2">Shopping Center</option>
+                <option value="3">Estádio</option>
+                <option value="4">Região</option>
+                <option value="5">Museus</option>
+            </select>
+        </section>
+
+        <section>
+            <h2>Calcular Rota</h2>
+            <label for="seulocal">Sua localização</label>
+            <input type="text" name="seulocal" id="seulocal"><br>
+            <label for="destino">Seu Destino</label>
+            <input type="text" name="destino" id="destino">
+        </section>
     </aside>
     <div id="map"></div>
 </body>
