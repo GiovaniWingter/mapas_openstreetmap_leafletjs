@@ -41,7 +41,7 @@ CREATE TABLE `pontos` (
 
 LOCK TABLES `pontos` WRITE;
 /*!40000 ALTER TABLE `pontos` DISABLE KEYS */;
-INSERT INTO `pontos` VALUES (1,'Parque Municipal de Barueri',-23.5055,-46.8744,'Lindo Parque Municipal de Barueri',1),(2,'Shopping Iguatemi Alphaville',-23.5044,-46.8467,'Shopping em Alphaville',2),(3,'Arena Barueri',-23.5107,-46.9007,'Bora assistir um clássico!',3),(4,'Centro de Barueri',-23.5111,-46.8763,'Rolê no Boulevard',4),(5,'Museu Municipal de Barueri',-23.5098,-46.8749,'Vá ao Museu, mas não me chame!',5),(6,'Parque Shopping Barueri',-23.5162,-46.8555,'Shopping próximo a Estação Antonio João',2);
+INSERT INTO `pontos` VALUES (1,'Parque Municipal de Barueri',-23.5055,-46.8744,'Lindo Parque Municipal de Barueri',1),(2,'Shopping Iguatemi Alphaville',-23.5044,-46.8467,'Shopping em Alphaville',2),(3,'Arena Barueri',-23.5107,-46.9007,'Bora assistir um clássico!',3),(4,'Centro de Barueri',-23.5111,-46.8763,'Rolê no Boulevard',4),(5,'Museu Municipal de Barueri',-23.5098,-46.8749,'Vá ao Museu, mas não me chame!',5),(6,'Parque Shopping Barueri',-23.5162,-46.8555,'Shopping próximo à Estação Antonio João',2);
 /*!40000 ALTER TABLE `pontos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

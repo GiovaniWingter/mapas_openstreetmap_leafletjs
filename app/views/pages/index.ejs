@@ -12,6 +12,10 @@
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="js/mapas.js"></script>
 
+    <!-- Leaflet Routing Machine -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.min.js"></script>
+
 </head>
 
 <body>
@@ -35,7 +39,9 @@
             <label for="seulocal">Sua localização</label>
             <input type="text" name="seulocal" id="seulocal"><br>
             <label for="destino">Seu Destino</label>
-            <input type="text" name="destino" id="destino">
+            <input type="text" name="destino" id="destino"><br>
+            <button type="button" id="rota">Traçar rota</button>
+            <div id="instrucoesRota"></div>
         </section>
     </aside>
     <div id="map"></div>
