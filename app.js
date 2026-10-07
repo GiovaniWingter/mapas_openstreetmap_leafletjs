@@ -16,6 +16,6 @@ var rotas = require("./app/routes/router");
 app.use("/", rotas);
 
 
-app.listen(port, () => {
-  console.log(`Servidor ouvindo na porta ${port}\nhttp://localhost:${port}`);
+app.listen(process.env.APP_PORT, () => {
+  console.log(`Servidor ouvindo na porta ${port}\nhttp://localhost:${process.env.APP_PORT}`);
 });

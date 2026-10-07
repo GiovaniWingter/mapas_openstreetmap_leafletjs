@@ -11,8 +11,4 @@ router.get('/api/pontos', (req, res) => {
     mapaController.listar(req, res);
 });
 
-
-
-
-
 module.exports = router;
